@@ -1,6 +1,6 @@
 # Deepthi Desharaju
 
-I build agentic AI systems that do real work in the enterprise — not demos.  
+I build agentic AI systems that do real work in the enterprise.  
 My focus is multi-step LLM agents, RAG pipelines, and MCP tool integrations on top of real production data.
 
 ---
