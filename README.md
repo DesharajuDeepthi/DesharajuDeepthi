@@ -30,14 +30,17 @@ And I treat evals and observability as part of the system, not an afterthought.
 
 ### Featured projects
 
-[CallLens](https://github.com/DesharajuDeepthi/calllens) — Multi-tenant B2B call analytics platform
+AgentOrchestrator — Composable AI agent orchestration platform
+Tri-layer registry (Tools → Skills → Sub-Agents) → dual orchestration modes (deterministic LangGraph + autonomous agentic) → MCP server hot-plugging → multi-layer memory (episodic · semantic · procedural with consolidation) → ambient intelligence with adaptive policy learning → A2A protocol routing.
+854 tests, 48 milestones of spec-driven development with full acceptance ceremonies, auth + multi-tenancy, admin command center with complete run tracing.
+
+CallLens — Multi-tenant B2B call analytics platform
 100 real enterprise call transcripts → LangGraph pipeline (with human-in-the-loop gates) → Postgres with Row-Level Security → MCP server → role-aware answers in any LLM client (Claude Desktop, Codex).
 JWT auth, 4 personas, role-scoped tools, idempotent SHA-256 ingestion, eval harness with regression guard, OTEL + Langfuse observability.
 
-[Corrective RAG Agent](https://github.com/DesharajuDeepthi/corrective-rag-agent) — Self-correcting research assistant over academic papers
-Hybrid retrieval (BM25 + vector, reciprocal rank fusion) → LLM relevance grading → query rewriting with live-search fallback → grounded synthesis → deterministic citation verification (no hallucinated sources). LangGraph state machine with a real-time reasoning trace in the UI.
-
-[Finance Data Analytics](https://github.com/DesharajuDeepthi/finance-data-analytics) — End-to-end pipeline: Yahoo Finance → Kafka → Snowflake medallion architecture → dbt → 11 analytical dashboards. The data-engineering foundation the AI work stands on.
+CodeShift Agent — Agentic code migration engine
+LangGraph StateGraph analyzes public GitHub repos and generates evidence-validated Pydantic v1→v2 migration plans — AST-based static analysis, never executes repo code. V2 adds GitHub OAuth, Redis job queue, pgvector semantic memory, and cross-run delta detection — zero changes to the core graph.
+327 tests, deterministic CI eval gate (6 scorers, no LLM judge), Prometheus + Grafana 11-panel dashboard.
 
 ---
 
