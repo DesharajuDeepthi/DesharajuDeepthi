@@ -30,14 +30,14 @@ And I treat evals and observability as part of the system, not an afterthought.
 
 ### Featured projects
 
-**[CallLens](https://github.com/DesharajuDeepthi/calllens)** — Multi-tenant B2B call analytics platform
+[CallLens](https://github.com/DesharajuDeepthi/calllens) — Multi-tenant B2B call analytics platform
 100 real enterprise call transcripts → LangGraph pipeline (with human-in-the-loop gates) → Postgres with Row-Level Security → MCP server → role-aware answers in any LLM client (Claude Desktop, Codex).
 JWT auth, 4 personas, role-scoped tools, idempotent SHA-256 ingestion, eval harness with regression guard, OTEL + Langfuse observability.
 
-**[Corrective RAG Agent](https://github.com/DesharajuDeepthi/corrective-rag-agent)** — Self-correcting research assistant over academic papers
-Hybrid retrieval (BM25 + vector, reciprocal rank fusion) → LLM relevance grading → query rewriting with live-search fallback → grounded synthesis → **deterministic citation verification** (no hallucinated sources). LangGraph state machine with a real-time reasoning trace in the UI.
+[Corrective RAG Agent](https://github.com/DesharajuDeepthi/corrective-rag-agent) — Self-correcting research assistant over academic papers
+Hybrid retrieval (BM25 + vector, reciprocal rank fusion) → LLM relevance grading → query rewriting with live-search fallback → grounded synthesis → deterministic citation verification (no hallucinated sources). LangGraph state machine with a real-time reasoning trace in the UI.
 
-**[Finance Data Analytics](https://github.com/DesharajuDeepthi/finance-data-analytics)** — End-to-end pipeline: Yahoo Finance → Kafka → Snowflake medallion architecture → dbt → 11 analytical dashboards. The data-engineering foundation the AI work stands on.
+[Finance Data Analytics](https://github.com/DesharajuDeepthi/finance-data-analytics) — End-to-end pipeline: Yahoo Finance → Kafka → Snowflake medallion architecture → dbt → 11 analytical dashboards. The data-engineering foundation the AI work stands on.
 
 ---
 
